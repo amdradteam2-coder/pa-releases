@@ -15,7 +15,7 @@
 </head>
 <body>
 <h1>PA privacy policy</h1>
-<p class="updated">Last updated: November 4, 2026</p>
+<p class="updated">Last updated: November 6, 2026</p>
 
 <p>PA is a Windows app that runs on your PC. It has no servers, no user accounts, no analytics, and no advertising.
 The people who make PA never receive your files, your mail, or anything about how you use the app.</p>
@@ -32,16 +32,35 @@ The people who make PA never receive your files, your mail, or anything about ho
     what that job read the first time. Settings › Every day lists them and stops any of them.</li>
   <li><strong>The window behind PA.</strong> When you open PA, it notes the title of the window you were using (and
     the folder, if it's File Explorer) so it can offer to help with it. You can block windows by phrase in
-    Settings. PA never takes screenshots.</li>
+    Settings. PA never watches your screen.</li>
+  <li><strong>Questions and answers.</strong> What you ask, and the conversation before it, go only to the AI model
+    on your PC (below). Nothing you type is sent to the makers of PA or to an online AI service.</li>
+  <li><strong>Things PA does on your PC.</strong> When you ask, PA reads what it needs on your PC to answer: battery,
+    storage, memory, processor use, network and Wi-Fi name, running apps, installed programs, startup apps, and file
+    names in your folders (through the Windows search index). It changes the volume, brightness, or dark mode, or closes
+    an app, only when you ask, and offers Undo where it can. Anything that can't be undone, such as emptying the Recycle
+    Bin, clearing temporary files, restarting, or a command PA wrote, waits for you to approve it first.</li>
+  <li><strong>Commands.</strong> For other tasks, the local model writes a PowerShell command. PA shows it with what it
+    would change, and runs it as you, for at most two minutes, only after you choose Run. PA asks every time.</li>
+  <li><strong>Screenshots</strong> are taken only when you ask for one, saved to <code>Pictures\Screenshots</code>,
+    and never sent anywhere by PA. If OneDrive backs up your Pictures folder, it copies them like any other picture,
+    and PA says so when it saves one.</li>
+  <li><strong>Reminders and timers</strong> are kept in <code>%LOCALAPPDATA%\PA</code> and shown on your PC when
+    they're due.</li>
   <li><strong>Job history, the conversation, settings, and the activity log</strong> are kept in
     <code>%LOCALAPPDATA%\PA</code>, separately for Work and Personal. New chat clears the conversation. Notes are
     kept in <code>Documents\PA</code>.</li>
   <li><strong>What you allowed.</strong> When you choose Always allow, PA remembers that kind of job (or that one
     connected account) for that profile, on your PC, so it doesn't ask again. Settings › Permissions lists them and
     removes any of them; disconnecting an account removes its permission.</li>
-  <li><strong>The optional local model</strong> runs on your PC through Foundry Local. Text it summarizes does not
-    leave the PC.</li>
+  <li><strong>The optional local model</strong> runs on your PC through Foundry Local. What it answers or summarizes
+    does not leave the PC.</li>
 </ul>
+
+<h2>Web searches</h2>
+<p>When you ask PA to search the web, or for something only the internet knows (today's weather, news, or a stock
+price), PA opens a Bing search for your words in your web browser. Those words go to Microsoft Bing like any search you
+type yourself, under Microsoft's privacy terms. PA itself sends nothing else and keeps nothing from the search.</p>
 
 <h2>Google data (Gmail and Google Calendar)</h2>
 <p>If you connect Gmail, PA asks Google for two read-only permissions:</p>

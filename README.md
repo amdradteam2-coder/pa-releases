@@ -1,7 +1,13 @@
 # PA
 
-PA is a Windows 11 tray assistant that does small jobs on your PC and lets you undo every one of them.
+PA is a Windows 11 assistant that answers your questions and does things on your PC, privately, with an AI model
+that runs on the PC itself.
 
+- Ask anything: questions, writing, advice, and follow-ups, with full answers in PA's own chat, in a small panel or
+  full screen.
+- Do things: open and close apps, find files and the biggest ones, free up space, change the volume, brightness, or
+  dark mode, take a screenshot, set reminders and timers, and check battery, storage, memory, and processor use.
+  Anything else becomes a PowerShell command that PA shows you and runs only after you approve it.
 - Sort a folder into a new sorted copy, digest a folder into one page of notes, or summarize a PDF or Word document.
 - See what's waiting for you in Gmail, Outlook, or GitHub, as a short note on your PC.
 - Ask by typing, by holding the mic button (speech is turned into text on your PC), or by dropping a file on the panel.
