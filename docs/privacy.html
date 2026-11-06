@@ -26,12 +26,19 @@ The people who make PA never receive your files, your mail, or anything about ho
     named in the request you approve, and writes the result next to it. File jobs run in a Windows sandbox with
     the network turned off.</li>
   <li><strong>Your voice.</strong> When you hold the mic button, the recording is turned into text on your PC and
-    then discarded. It is never saved or sent anywhere. PA never listens unless you press the button.</li>
+    then discarded. The recording is never saved or sent anywhere; the words it heard show in the conversation
+    like typed ones. PA never listens unless you press the button.</li>
+  <li><strong>Every day.</strong> A job you choose to repeat runs at the same time each day on your PC, reading only
+    what that job read the first time. Settings › Every day lists them and stops any of them.</li>
   <li><strong>The window behind PA.</strong> When you open PA, it notes the title of the window you were using (and
     the folder, if it's File Explorer) so it can offer to help with it. You can block windows by phrase in
     Settings. PA never takes screenshots.</li>
-  <li><strong>Job history, settings, and the activity log</strong> are kept in <code>%LOCALAPPDATA%\PA</code>. Notes
-    are kept in <code>Documents\PA</code>.</li>
+  <li><strong>Job history, the conversation, settings, and the activity log</strong> are kept in
+    <code>%LOCALAPPDATA%\PA</code>, separately for Work and Personal. New chat clears the conversation. Notes are
+    kept in <code>Documents\PA</code>.</li>
+  <li><strong>What you allowed.</strong> When you choose Always allow, PA remembers that kind of job (or that one
+    connected account) for that profile, on your PC, so it doesn't ask again. Settings › Permissions lists them and
+    removes any of them; disconnecting an account removes its permission.</li>
   <li><strong>The optional local model</strong> runs on your PC through Foundry Local. Text it summarizes does not
     leave the PC.</li>
 </ul>
